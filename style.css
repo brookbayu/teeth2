@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #251e0d;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    color: #b78989;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+video {
+    border: 2px solid #f0e7e7;
+    border-radius: 10px;
+}
+
+canvas {
+    position: absolute;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: rgba(6, 0, 0, 0.7);
+}
